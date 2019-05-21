@@ -40,3 +40,9 @@ start: function() {
         }
     }
 };
+
+
+
+$(document).on("click", ".start", function(){
+    quiz.start();
+});
